@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  :root {
+    --color-one: #8261ee;
+    --color-two: #ff589e;
+    --color-text: #777777;
+    --font: "Raleway", sans-serif;
+  }
+
+  html {
+    overflow-x: hidden;
+  }
+  
+  body {
+    font-family: var(--font);
+    color: var(--color-text);
+    overflow-x: hidden;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+
+  .button {
+    display: inline-block;
+    background: #fff;
+    color: var(--color-text);
+    font-size: 13px;
+    border-radius: 20px;
+    padding: 15px 18px;
+    letter-spacing: 0.25px;
+    transition: all 0.3s ease 0s;
+  }
+  .button--one {
+    background: var(--color-two);
+    color: #fff;
+  }
+  .button--one:hover {
+    background: #0056b3;
+  }
+  .button--two {
+    background: var(--color-one);
+    color: #fff;
+  }
+  .button--two:hover {
+    background: red;
+  }
